@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: radial-gradient(circle at top right, 
+    #ff8a00,
+    rgb(0, 221, 255), 
+    #e52e71);
+}
+
+.carousel-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgb(67, 69, 70) 0px 20px 30px -10px; 
+  }
+  
+  .photo-container {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    box-shadow: 0 1px 5px rgb(59, 56, 56), inset 1px 1px 2px rgb(125, 115, 115);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px 10px 0 10px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(247, 247, 247));
+    box-shadow: 0 1px 5px rgb(59, 56, 56), inset 1px 1px 2px rgb(125, 115, 115);
+  }
